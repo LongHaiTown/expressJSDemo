@@ -22,7 +22,7 @@ const newTruyen = [
 function createCard(truyen) {
   return `
     <div class="card">
-      <img src="${truyen.img}" alt="${truyen.title}">
+      <img src="/images/${truyen.img}" alt="${truyen.title}">
       <h3>${truyen.title}</h3>
       <p>${truyen.chapter}</p>
     </div>
