@@ -1,3 +1,67 @@
 
-<h1>Chào mừng đến với Express.js</h1>
-<p>Đây là trang chủ.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/style.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <span style="color: orange; font-size: 29px;">SAYSUA</span><span style="color: black; font-size: 24px; margin-left: 3px;">TRUYEN</span>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Tên truyện, tác giả...">
+        <button>🔍</button>
+      </div>
+      <div class="user-options">
+        <button class="btn-login">ĐĂNG NHẬP</button>
+        <button class="btn-register">ĐĂNG KÝ</button>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li>TRANG CHỦ</li>
+        <li>THỂ LOẠI</li>
+        <li>XẾP HẠNG</li>
+        <li>CON GÁI</li>
+        <li>CON TRAI</li>
+        <li>LỊCH SỬ</li>
+        <li>THEO DÕI</li>
+        <li>FANPAGE</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hot-truyen">
+      <h2>★ TRUYỆN HOT</h2>
+      <div class="grid" id="hotTruyenGrid">
+      </div>
+    </section>
+
+    <section class="new-truyen">
+      <h2>☞ TRUYỆN MỚI CẬP NHẬT</h2>
+      <div class="grid" id="newTruyenGrid">
+      </div>
+      <button class="btn-more">XEM THÊM</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-right">
+    <p>Liên Hệ | Chính Sách Bảo Mật</p>
+    <p>Copyright &copy; 2024 NetTruyen</p>
+    <p>Email: <a href="mailto:saysuatruyen@gmail.com">saysuatruyen@gmail.com</a></p>
+    </div>
+    <div class="footer-img">
+        <img src="../public/images/imgfooter.jpg" alt="hình ảnh">
+    </div>
+  </footer>
+
+  <script src="../public/js/script.js"></script>
+</body>
+</html>
